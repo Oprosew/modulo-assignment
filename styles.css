@@ -1,0 +1,186 @@
+ @import url("https://fonts.googleapis.com/css?family=Allura|Josefin+Sans")
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: Josefin Sans , sans-serif;
+  }
+  p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #5F8E8E;
+  }
+  h1.title {
+    margin-bottom: 20px;
+    color: orange;
+    font-family: "Allura" , "cursive";
+    text-transform: uppercase;
+    font-size: 38px;
+    word-spacing: 25px;
+    letter-spacing: 5px;
+  }
+  .btn a{
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    border: 2px solid black;
+    color: red;
+    display: block;
+    margin: 25px auto 0;
+    text-align: center;
+  }
+  .main_container {
+    position: relative;
+  }
+  .navbar {
+    width: 100%;
+    height: 65px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .logo a {
+    font-family: "Allura" , "cursive";
+    font-size: 32px;
+    color: red;
+    
+  }
+  .navbar_item ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .navbar_item ul li {
+    float: left;
+    width: 100px;
+    height: 40px;
+    background-color: lightsalmon;
+    opacity: .8;
+    line-height: 40px;
+    text-align: center;
+  }
+  .navbar_item ul li a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  .navbar_item ul li a:hover {
+    background-color: tomato;
+  }
+  .navbar_item ul li a:after {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: 50% 50%;
+    width: 100%;
+    height: 2px;
+    transition: transform 250ms;
+  }
+  .navbar_item ul li a:hover:after {
+    transform: translateX(-50%) scaleX(1.0);
+  }
+  .navbar_item ul li ul li {
+    display: none;
+  }
+  .navbar_item ul li:hover ul li {
+    display: block;
+  }
+  .banner_content {
+    text-align: center;
+    color: whitesmoke;
+  }
+  .banner_content h1 {
+    text-transform: uppercase;
+    line-height: 38px;
+    margin-bottom: 15px;
+  }
+  .banner_content h1 span {
+    color: tomato;
+  }
+
+  .banner_image{
+    background: url('file:///C:/Users/progress/Documents/website%20Design/Screenshot_20230825-210047.jpg') no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 700%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 0.5%;
+  }
+  .about,
+  .services,
+  .Contactus,
+  .ourteam {
+    text-align: center;
+    padding: 5% 10%;
+  }
+  .services {
+    background: whitesmoke;
+  }
+  .diff_services {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .diff_services .diff_services_item {
+    width: 30%;
+  }
+  .diff_services .diff_services_item img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .Contactus {
+    background: url("file:///C:/Users/progress/Documents/1684924877708.jpg") no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 70%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 1% 0.5%;
+  }
+  .form_wrapper {
+    margin: auto;
+    width: 50%;
+    padding: 16px;
+    background-color: transparent;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.7);
+  }
+  input[type="text"] {
+
+     width: 35%;
+     padding: 15px;
+     margin: 5px 0 22px 0;
+     display: inline-block;
+     border: none;
+     background: white;
+  }
+.bold {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.goals {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+  @media (min-width:320px) and (max-width:1200px)
+  {
+    body {background-color: black;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+  }
+
+  
